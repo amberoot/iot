@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:foregroundGravity="center_vertical|center_horizontal"
+    tools:context="com.cuanbo.cb_iot.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:text="CB-IOT平台"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnAppointment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginRight="160dp"
+            android:background="@drawable/btn_shape"
+            android:text="在线会议预约"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/btnManage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginRight="160dp"
+            android:background="@drawable/btn_shape"
+            android:text="会议室管理"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnDeviceManage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginRight="160dp"
+            android:background="@drawable/btn_shape"
+            android:text="会议设备控制"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/btnLimit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginRight="160dp"
+            android:background="@drawable/btn_shape"
+            android:text="用户权限管理"
+            android:textSize="18sp"/>
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

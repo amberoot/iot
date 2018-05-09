@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="system">
+    <item>会议预约系统</item>
+    <item>会议管理系统 </item>
+    <item>会议设备控制系统</item>
+    <item>用户权限管理系统</item>
+    </string-array>
+
+</resources>

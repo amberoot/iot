@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CB_IOT</string>
+    <string name="title_activity_meeting_room_list">会议室预约列表</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_appointment">新增预约</string>
+</resources>
